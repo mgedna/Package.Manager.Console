@@ -1,0 +1,90 @@
+﻿<Window x:Class="Package.Manager.Console.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Package.Manager.Console"
+        mc:Ignorable="d"
+        Title="Package Manager Console"
+        Height="500" Width="800"
+        Background="#1E1E1E"
+        Foreground="#D4D4D4"
+        FontFamily="Consolas"
+        FontSize="13"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResize">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Label -->
+            <RowDefinition Height="Auto"/>
+            <!-- Input + Run -->
+            <RowDefinition Height="*"/>
+            <!-- Output -->
+            <RowDefinition Height="Auto"/>
+            <!-- Buttons + Status -->
+        </Grid.RowDefinitions>
+
+        <!-- Input Label -->
+        <TextBlock Text="Enter Command:" FontWeight="Bold" Grid.Row="0" Margin="0,0,0,5"/>
+
+        <!-- Input and Run Button -->
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,10">
+            <TextBox x:Name="CommandInput"
+                     Width="500" Height="30"
+                     Background="#252526"
+                     Foreground="White"
+                     BorderBrush="#3C3C3C"
+                     BorderThickness="1"
+                     KeyDown="CommandInput_KeyDown"/>
+            <Button x:Name="RunButton"
+                    Content="Run"
+                    Width="80" Height="30"
+                    Margin="10,0,0,0"
+                    Click="RunCommand_Click"
+                    Background="#0E639C"
+                    Foreground="White"/>
+        </StackPanel>
+
+        <!-- Output Area -->
+        <GroupBox Header="Output" Grid.Row="2"
+                  Foreground="White"
+                  BorderBrush="#3C3C3C"
+                  FontWeight="Bold"
+                  Margin="0,0,0,5">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <RichTextBox x:Name="CommandOutput"
+                             Background="#1E1E1E"
+                             Foreground="LightGreen"
+                             IsReadOnly="True"
+                             BorderThickness="0"
+                             FontFamily="Consolas"
+                             FontSize="13"
+                             VerticalScrollBarVisibility="Auto"/>
+            </ScrollViewer>
+        </GroupBox>
+
+        <!-- Control Buttons and Status Bar -->
+        <DockPanel Grid.Row="3" LastChildFill="True" Margin="0,10,0,0">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
+                <Button Content="Clear Output"
+                        Width="100" Margin="0,0,10,0"
+                        Click="ClearOutput_Click"
+                        Background="#3C3C3C" Foreground="White"/>
+                <Button Content="Copy Output"
+                        Width="100"
+                        Click="CopyOutput_Click"
+                        Background="#3C3C3C" Foreground="White"/>
+            </StackPanel>
+
+            <TextBlock x:Name="StatusBarText"
+                       Text="Ready"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       DockPanel.Dock="Right"
+                       Foreground="LightGray"
+                       FontSize="12"/>
+        </DockPanel>
+    </Grid>
+</Window>

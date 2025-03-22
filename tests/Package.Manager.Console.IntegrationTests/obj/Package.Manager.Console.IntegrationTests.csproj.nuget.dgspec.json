@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\tests\\Package.Manager.Console.IntegrationTests\\Package.Manager.Console.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\Package.Manager.Console.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\Package.Manager.Console.Application.csproj",
+        "projectName": "Package.Manager.Console.Application",
+        "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\Package.Manager.Console.Application.csproj",
+        "packagesPath": "C:\\Users\\etna_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\etna_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\Package.Manager.Console.Domain.csproj": {
+                "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\Package.Manager.Console.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\Package.Manager.Console.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\Package.Manager.Console.Domain.csproj",
+        "projectName": "Package.Manager.Console.Domain",
+        "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\Package.Manager.Console.Domain.csproj",
+        "packagesPath": "C:\\Users\\etna_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\etna_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\Package.Manager.Console.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\Package.Manager.Console.Infrastructure.csproj",
+        "projectName": "Package.Manager.Console.Infrastructure",
+        "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\Package.Manager.Console.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\etna_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\etna_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\Package.Manager.Console.Application.csproj": {
+                "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Application\\Package.Manager.Console.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\tests\\Package.Manager.Console.IntegrationTests\\Package.Manager.Console.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\tests\\Package.Manager.Console.IntegrationTests\\Package.Manager.Console.IntegrationTests.csproj",
+        "projectName": "Package.Manager.Console.IntegrationTests",
+        "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\tests\\Package.Manager.Console.IntegrationTests\\Package.Manager.Console.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\etna_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\tests\\Package.Manager.Console.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\etna_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\Package.Manager.Console.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\etna_\\Desktop\\Package.Manager.Console\\Package.Manager.Console\\src\\Package.Manager.Console.Infrastructure\\Package.Manager.Console.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
